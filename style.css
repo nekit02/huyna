@@ -29,7 +29,7 @@
     text-align: center;
 }
 .hero{   
-     background: url(../img/imag1.jpeg) rgba(0, 0, 0, 0.6);
+     background: url(../imag1.jpeg) rgba(0, 0, 0, 0.6);
      background-position:center;
     background-blend-mode: darken;
     background-repeat: no-repeat;
