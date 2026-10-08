@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+          font-family: "Isometra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background: lavender;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.header-content{
+    width:100%;
+    display: flex;
+    justify-items: space-evenly;
+    align-items: center;
+    padding: 40px 100px;
+    font-size: 20px;
+  font-family: "Isometra", serif;
+  font-weight: 400;
+  font-style: normal;
+    text-align: center;
+}
+.hero{   
+     background: url(../img/imag1.jpeg) rgba(0, 0, 0, 0.6);
+     background-position:center;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+margin: 0;}
+.hero_item{
+    width: 50%;
+    height: 500px;
+}
+.hero-content{
+    display: flex;
+
+}
+.texti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+.hero_text{
+    width: 60%;
+}
+.hero_item img{
+    max-height: 500px;
+}
+.center{
+    font-size: 60px;
+}
+.sec2{
+    background: beige;
+}
+.perfect_photos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.gallery{
+      font-family: "Isometra", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  padding: 100px 0;
+}
+p{
+    font-size: 8px;
+}
+.who{
+    padding: 100px 0;
+    background-color: azure;
+}
